@@ -15,14 +15,18 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+
+  dmu,
+  rakutenGroup,
+
   threejs,
+  rakutenSecurities,
+  SQL,
+  java,
+  barrierRepair,
+  chatgpt,
+  nextbasketball,
+  tellthepet,
 } from "../assets";
 
 export const navLinks = [
@@ -54,7 +58,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Full Stack Developer",
     icon: creator,
   },
 ];
@@ -112,56 +116,47 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "java",
+    icon: java,
+  },
+  {
+    name: "SQL",
+    icon: SQL,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Computing BSc (Hons) (FT)",
+    company_name: "De Montfort University - ",
+    icon: dmu,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Nov 2017 - Jun 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "United Kingdom Leicester",
+      "Degree- Upper 2nd",
+      "Broaden your prospects with a firm foundation in the practice and theory of core computing principles, with a focus on software development, database design, web technologies and security.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Full Stack Developer",
+    company_name: "Rakuten Securities Hong Kong",
+    icon: rakutenSecurities,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Dec 2021 - Apr 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Full Stack Developer",
+    company_name: "Rakuten Group - Fukuoka",
+    icon: rakutenGroup,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2022 - ",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using React.js and Java",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -198,16 +193,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Barrier Repair",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Javascript",
         color: "green-text-gradient",
       },
       {
@@ -215,20 +210,20 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: barrierRepair,
+    source_code_link: "https://barrier-repair-react.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "chatgpt api",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "api",
         color: "green-text-gradient",
       },
       {
@@ -236,13 +231,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: chatgpt,
+    source_code_link: "https://chat-gpt-next-web-peach-eight-37.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Basketball template",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "",
     tags: [
       {
         name: "nextjs",
@@ -257,8 +252,29 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: nextbasketball,
+    source_code_link: "https://nextbasketballhk.vercel.app/",
+  },
+  {
+    name: "Tell the pet",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tellthepet,
+    source_code_link: "https://next-tellthepet.vercel.app/",
   },
 ];
 

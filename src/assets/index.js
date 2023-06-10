@@ -20,17 +20,37 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import java from "./tech/java.png";
+import SQL from "./tech/SQL.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import rakutenGroup from "./company/rakuten-group.jpeg";
+import dmu from "./company/dmu.png";
+import rakutenSecurities from "./company/rakuten-securities-hong-kong .jpeg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import barrierRepair from "./webSample/barrierRepair.png";
+import chatgpt from "./webSample/chatgpt.png";
+import nextbasketball from "./webSample/nextbasketball.png";
+import tellthepet from "./webSample/tellthepet.png";
+
+
 export {
+  barrierRepair,
+  chatgpt,
+  nextbasketball,
+  tellthepet,
+  SQL,
+  java,
+  rakutenGroup,
+  rakutenSecurities,
+  dmu,
   logo,
   backend,
   creator,
