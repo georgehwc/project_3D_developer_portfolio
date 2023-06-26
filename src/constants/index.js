@@ -97,10 +97,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -114,10 +114,10 @@ const technologies = [
     name: "java",
     icon: java,
   },
-  {
-    name: "SQL",
-    icon: SQL,
-  },
+  // {
+  //   name: "SQL",
+  //   icon: SQL,
+  // },
 ];
 
 const experiences = [
