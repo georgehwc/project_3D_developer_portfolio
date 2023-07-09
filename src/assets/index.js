@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo from "./Developer_george_logo_tranparent_02.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
